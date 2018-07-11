@@ -1,5 +1,5 @@
 def my_each(array)
-  new_array = []
+  i = 0
   while array.length > 0 
     array.each do |num|
     new_array << num
