@@ -4,6 +4,6 @@ def my_each(array)
     array.each do |num|
     new_array << num
     break
-  end
+    end
   end
 end
