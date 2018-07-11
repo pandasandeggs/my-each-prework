@@ -5,4 +5,5 @@ def my_each(array)
     new_array << num
     break
   end
+  end
 end
