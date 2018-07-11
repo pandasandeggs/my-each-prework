@@ -3,5 +3,6 @@ def my_each(array)
   while array.length > 0 
     yield(array)
     new_array << array
+    break
   end
 end
