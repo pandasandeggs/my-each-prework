@@ -1,9 +1,8 @@
 def my_each(array)
   i = 0
-  while array.length > 0 
-    array.each do |num|
-    new_array << num
-    break
+  while i < array.length 
+    yield array[i]
+    i += 1 
     end
   end
 end
